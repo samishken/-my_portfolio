@@ -503,6 +503,8 @@ footer {
 .footer-left a { color: #ddd; border-bottom: 1px dashed #ddd; }
 .footer-left a:hover, .footer-left a:focus { color: #ddd; border: 0; }
 
+.col-md-5 {color: #fff;}
+
 .footer-right {
 	text-align: right;
 }
@@ -521,7 +523,7 @@ footer {
 
 .footer-bottom a {
 	font-size: 32px;
-    color: #666;
+    color: #fff;
     line-height: 40px;
 }
 

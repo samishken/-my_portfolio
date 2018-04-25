@@ -1,5 +1,5 @@
 body {
-	background-image: url(assets/img/backgrounds/1@2x.jpg);
+		
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
     font-weight: 300;
@@ -77,7 +77,7 @@ img { max-width: 100%; }
 }
 
 .section-bottom-button {
-	padding-top: 60px;
+	padding-top: 5px;
 }
 
 .btn-link-1 {
@@ -248,6 +248,9 @@ img { max-width: 100%; }
 	padding: 0 0 10px 0;
 }
 
+.joiner {
+font-size: 32px;
+}
 
 /***** About ME *****/
 
@@ -326,9 +329,13 @@ img { max-width: 100%; }
 }
 
 .portfolio-box-image {
+	height: 180px;
+	width: 350px;
+	display: flex;
+	flex-wrap: wrap;
 	overflow: hidden;
-	border-radius: 4px;
 }
+
 
 .portfolio-box-image img {
 	-o-transition: all .8s; -moz-transition: all .8s; -webkit-transition: all .8s; -ms-transition: all .8s; transition: all .8s;
@@ -368,8 +375,8 @@ img { max-width: 100%; }
 }
 
 
-/***** Testimonials ** RESUME ***/
-
+/******* RESUME ***/
+/* 
 .testimonials-container {
 	padding-bottom: 70px;
 }
@@ -437,10 +444,10 @@ img { max-width: 100%; }
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffb24b', endColorstr='#9b59b6',GradientType=0 ); /* IE6-9 */
 	
 	border: 0;
-}
+} */
 
 
-/***** Blog *** WORK EXPERIENCE **/
+/***** WORK EXPERIENCE **/
 
 .blog-box {
 	margin-top: 30px;

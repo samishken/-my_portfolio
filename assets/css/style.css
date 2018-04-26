@@ -220,6 +220,7 @@ img { max-width: 100%; }
 .services-box {
 	padding-top: 30px;
 	text-align: left;
+    margin: 30px 130px 30px 40px;
 }
 
 .services-box .services-box-icon {
@@ -324,24 +325,20 @@ font-size: 32px;
 /***** Portfolio *** PROJECTS **/
 
 .portfolio-box {
-	height: 400px;
-	padding-top: 30px;
-	text-align: left;
-	display: flex;
-	flex-wrap: wrap;
-	
+	border: 1px solid #1d3c6a;
+    border-radius: 5px;
+    margin: 10px 130px 40px 40px;
 }
 
 .portfolio-box-image {
 	display: flex;
 	flex-wrap: wrap;
 	overflow: hidden;
-	
 }
 
 
 .portfolio-box-image img {
-	grid-template-columns: auto auto;
+	width: 450px;
 	-o-transition: all .8s; -moz-transition: all .8s; -webkit-transition: all .8s; -ms-transition: all .8s; transition: all .8s;
 	
 }
@@ -378,8 +375,6 @@ font-size: 32px;
 .portfolio-container .section-bottom-button {
 	padding-top: 40px;
 }
-
-
 
 
 

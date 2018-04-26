@@ -273,7 +273,7 @@ font-size: 32px;
 	margin-bottom: 20px;
 }
 
-.about-us-box-text a { border-bottom: 1px dashed #9b59b6; }
+.about-us-box-text a { border-bottom: 1px dashed #9b59b6; font-weight: bold;}
 .about-us-box-text a:hover, .about-us-box-text a:focus { border: 0; }
 
 .about-us-box-img img {
